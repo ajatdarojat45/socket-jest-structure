@@ -1,0 +1,32 @@
+{
+  "name": "socket-jest-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "socket-jest-structure": "bin/http.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --runInBand --forceExit --verbose --watchAll",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajatdarojat45/socket-jest-structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajatdarojat45/socket-jest-structure/issues"
+  },
+  "homepage": "https://github.com/ajatdarojat45/socket-jest-structure#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "socket.io": "^4.4.1"
+  }
+}
